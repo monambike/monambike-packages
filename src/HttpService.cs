@@ -13,7 +13,7 @@
         /// <returns>A Task representing the asynchronous operation. The result contains the response content as a string.</returns>
         internal static async Task<string> GetAsync(HttpClient httpClient, string strRequest)
         {
-            // Tries to make the request with the base address and the request
+            // Tries to make the request with the base address and the request.
             // for URI validation
             Uri.TryCreate($"{httpClient.BaseAddress}{strRequest}", UriKind.Absolute, out Uri request);
             // If current URI is valid, makes the requisition and returns the response
