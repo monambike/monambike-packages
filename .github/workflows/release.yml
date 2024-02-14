@@ -16,4 +16,3 @@ jobs:
         run: dotnet pack -c Release --no-build --output .
       - name: Publish to NuGet
         run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.GIT_PACKAGES_TOKEN }} --source "github"
-1
