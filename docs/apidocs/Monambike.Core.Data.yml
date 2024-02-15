@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monambike.Core.Data
+  commentId: N:Monambike.Core.Data
+  id: Monambike.Core.Data
+  children:
+  - Monambike.Core.Data.HttpService
+  - Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Monambike.Core.Data
+  nameWithType: Monambike.Core.Data
+  fullName: Monambike.Core.Data
+  type: Namespace
+  assemblies:
+  - Monambike.Core
+references:
+- uid: Monambike.Core.Data.HttpService
+  commentId: T:Monambike.Core.Data.HttpService
+  href: Monambike.Core.Data.HttpService.html
+  name: HttpService
+  nameWithType: HttpService
+  fullName: Monambike.Core.Data.HttpService
+- uid: Monambike.Core.Data.Monambike
+  commentId: T:Monambike.Core.Data.Monambike
+  href: Monambike.Core.Data.Monambike.html
+  name: Monambike
+  nameWithType: Monambike
+  fullName: Monambike.Core.Data.Monambike
+memberLayout: SeparatePages

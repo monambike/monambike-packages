@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monambike.Core.Models
+  commentId: N:Monambike.Core.Models
+  id: Monambike.Core.Models
+  children:
+  - Monambike.Core.Models.GithubProjects
+  - Monambike.Core.Models.GithubProjects.GithubResponse
+  langs:
+  - csharp
+  - vb
+  name: Monambike.Core.Models
+  nameWithType: Monambike.Core.Models
+  fullName: Monambike.Core.Models
+  type: Namespace
+  assemblies:
+  - Monambike.Core
+references:
+- uid: Monambike.Core.Models.GithubProjects
+  commentId: T:Monambike.Core.Models.GithubProjects
+  href: Monambike.Core.Models.GithubProjects.html
+  name: GithubProjects
+  nameWithType: GithubProjects
+  fullName: Monambike.Core.Models.GithubProjects
+- uid: Monambike.Core.Models.GithubProjects.GithubResponse
+  commentId: T:Monambike.Core.Models.GithubProjects.GithubResponse
+  href: Monambike.Core.Models.GithubProjects.html
+  name: GithubProjects.GithubResponse
+  nameWithType: GithubProjects.GithubResponse
+  fullName: Monambike.Core.Models.GithubProjects.GithubResponse
+  spec.csharp:
+  - uid: Monambike.Core.Models.GithubProjects
+    name: GithubProjects
+    href: Monambike.Core.Models.GithubProjects.html
+  - name: .
+  - uid: Monambike.Core.Models.GithubProjects.GithubResponse
+    name: GithubResponse
+    href: Monambike.Core.Models.GithubProjects.GithubResponse.html
+  spec.vb:
+  - uid: Monambike.Core.Models.GithubProjects
+    name: GithubProjects
+    href: Monambike.Core.Models.GithubProjects.html
+  - name: .
+  - uid: Monambike.Core.Models.GithubProjects.GithubResponse
+    name: GithubResponse
+    href: Monambike.Core.Models.GithubProjects.GithubResponse.html
+memberLayout: SeparatePages

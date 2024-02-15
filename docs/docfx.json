@@ -1,0 +1,49 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "apidocs",
+      "disableDefaultFilter": true,
+      "includePrivateMembers": true,
+      "memberLayout": "separatePages"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Monambike Core",
+      "_appTitle": "Monambike Core",
+      "_appFooter": "Monambike Core (CC-BY-4.0) 2020-2024 @monambike",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}

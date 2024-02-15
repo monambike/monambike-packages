@@ -1,0 +1,818 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monambike.Core.Data.Monambike
+  commentId: T:Monambike.Core.Data.Monambike
+  id: Monambike
+  parent: Monambike.Core.Data
+  children:
+  - Monambike.Core.Data.Monambike.Birthday
+  - Monambike.Core.Data.Monambike.FirstName
+  - Monambike.Core.Data.Monambike.GitHub
+  - Monambike.Core.Data.Monambike.InstagramMonambike
+  - Monambike.Core.Data.Monambike.InstagramMonambikePortfolio
+  - Monambike.Core.Data.Monambike.ItchIo
+  - Monambike.Core.Data.Monambike.LinkedIn
+  - Monambike.Core.Data.Monambike.SecondName
+  - Monambike.Core.Data.Monambike.Spotify
+  - Monambike.Core.Data.Monambike.Steam
+  - Monambike.Core.Data.Monambike.Username
+  - Monambike.Core.Data.Monambike.Website
+  - Monambike.Core.Data.Monambike.YouTubeMonambike
+  - Monambike.Core.Data.Monambike.YouTubeMonambikeLive
+  - Monambike.Core.Data.Monambike.YouTubeMonambikePortfolio
+  langs:
+  - csharp
+  - vb
+  name: Monambike
+  nameWithType: Monambike
+  fullName: Monambike.Core.Data.Monambike
+  type: Class
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Monambike
+    path: ../src/Data/Monambike.cs
+    startLine: 4
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static class Monambike
+    content.vb: Public Module Monambike
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Monambike.Core.Data.Monambike.Username
+  commentId: P:Monambike.Core.Data.Monambike.Username
+  id: Username
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: Monambike.Username
+  fullName: Monambike.Core.Data.Monambike.Username
+  type: Property
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Username
+    path: ../src/Data/Monambike.cs
+    startLine: 6
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static string Username { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Username As String
+  overload: Monambike.Core.Data.Monambike.Username*
+- uid: Monambike.Core.Data.Monambike.FirstName
+  commentId: P:Monambike.Core.Data.Monambike.FirstName
+  id: FirstName
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: Monambike.FirstName
+  fullName: Monambike.Core.Data.Monambike.FirstName
+  type: Property
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: FirstName
+    path: ../src/Data/Monambike.cs
+    startLine: 8
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static string FirstName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FirstName As String
+  overload: Monambike.Core.Data.Monambike.FirstName*
+- uid: Monambike.Core.Data.Monambike.SecondName
+  commentId: P:Monambike.Core.Data.Monambike.SecondName
+  id: SecondName
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: SecondName
+  nameWithType: Monambike.SecondName
+  fullName: Monambike.Core.Data.Monambike.SecondName
+  type: Property
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: SecondName
+    path: ../src/Data/Monambike.cs
+    startLine: 10
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static string SecondName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SecondName As String
+  overload: Monambike.Core.Data.Monambike.SecondName*
+- uid: Monambike.Core.Data.Monambike.Birthday
+  commentId: P:Monambike.Core.Data.Monambike.Birthday
+  id: Birthday
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Birthday
+  nameWithType: Monambike.Birthday
+  fullName: Monambike.Core.Data.Monambike.Birthday
+  type: Property
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Birthday
+    path: ../src/Data/Monambike.cs
+    startLine: 12
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static DateTime Birthday { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Shared ReadOnly Property Birthday As Date
+  overload: Monambike.Core.Data.Monambike.Birthday*
+- uid: Monambike.Core.Data.Monambike.Website
+  commentId: F:Monambike.Core.Data.Monambike.Website
+  id: Website
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Website
+  nameWithType: Monambike.Website
+  fullName: Monambike.Core.Data.Monambike.Website
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Website
+    path: ../src/Data/Monambike.cs
+    startLine: 15
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link Website
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly Website As Link
+- uid: Monambike.Core.Data.Monambike.InstagramMonambike
+  commentId: F:Monambike.Core.Data.Monambike.InstagramMonambike
+  id: InstagramMonambike
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: InstagramMonambike
+  nameWithType: Monambike.InstagramMonambike
+  fullName: Monambike.Core.Data.Monambike.InstagramMonambike
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: InstagramMonambike
+    path: ../src/Data/Monambike.cs
+    startLine: 18
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link InstagramMonambike
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly InstagramMonambike As Link
+- uid: Monambike.Core.Data.Monambike.InstagramMonambikePortfolio
+  commentId: F:Monambike.Core.Data.Monambike.InstagramMonambikePortfolio
+  id: InstagramMonambikePortfolio
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: InstagramMonambikePortfolio
+  nameWithType: Monambike.InstagramMonambikePortfolio
+  fullName: Monambike.Core.Data.Monambike.InstagramMonambikePortfolio
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: InstagramMonambikePortfolio
+    path: ../src/Data/Monambike.cs
+    startLine: 19
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link InstagramMonambikePortfolio
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly InstagramMonambikePortfolio As Link
+- uid: Monambike.Core.Data.Monambike.Spotify
+  commentId: F:Monambike.Core.Data.Monambike.Spotify
+  id: Spotify
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Spotify
+  nameWithType: Monambike.Spotify
+  fullName: Monambike.Core.Data.Monambike.Spotify
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Spotify
+    path: ../src/Data/Monambike.cs
+    startLine: 22
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link Spotify
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly Spotify As Link
+- uid: Monambike.Core.Data.Monambike.Steam
+  commentId: F:Monambike.Core.Data.Monambike.Steam
+  id: Steam
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: Steam
+  nameWithType: Monambike.Steam
+  fullName: Monambike.Core.Data.Monambike.Steam
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: Steam
+    path: ../src/Data/Monambike.cs
+    startLine: 25
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link Steam
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly Steam As Link
+- uid: Monambike.Core.Data.Monambike.YouTubeMonambike
+  commentId: F:Monambike.Core.Data.Monambike.YouTubeMonambike
+  id: YouTubeMonambike
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: YouTubeMonambike
+  nameWithType: Monambike.YouTubeMonambike
+  fullName: Monambike.Core.Data.Monambike.YouTubeMonambike
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: YouTubeMonambike
+    path: ../src/Data/Monambike.cs
+    startLine: 28
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link YouTubeMonambike
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly YouTubeMonambike As Link
+- uid: Monambike.Core.Data.Monambike.YouTubeMonambikePortfolio
+  commentId: F:Monambike.Core.Data.Monambike.YouTubeMonambikePortfolio
+  id: YouTubeMonambikePortfolio
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: YouTubeMonambikePortfolio
+  nameWithType: Monambike.YouTubeMonambikePortfolio
+  fullName: Monambike.Core.Data.Monambike.YouTubeMonambikePortfolio
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: YouTubeMonambikePortfolio
+    path: ../src/Data/Monambike.cs
+    startLine: 29
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link YouTubeMonambikePortfolio
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly YouTubeMonambikePortfolio As Link
+- uid: Monambike.Core.Data.Monambike.YouTubeMonambikeLive
+  commentId: F:Monambike.Core.Data.Monambike.YouTubeMonambikeLive
+  id: YouTubeMonambikeLive
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: YouTubeMonambikeLive
+  nameWithType: Monambike.YouTubeMonambikeLive
+  fullName: Monambike.Core.Data.Monambike.YouTubeMonambikeLive
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: YouTubeMonambikeLive
+    path: ../src/Data/Monambike.cs
+    startLine: 30
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link YouTubeMonambikeLive
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly YouTubeMonambikeLive As Link
+- uid: Monambike.Core.Data.Monambike.LinkedIn
+  commentId: F:Monambike.Core.Data.Monambike.LinkedIn
+  id: LinkedIn
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: LinkedIn
+  nameWithType: Monambike.LinkedIn
+  fullName: Monambike.Core.Data.Monambike.LinkedIn
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: LinkedIn
+    path: ../src/Data/Monambike.cs
+    startLine: 33
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link LinkedIn
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly LinkedIn As Link
+- uid: Monambike.Core.Data.Monambike.GitHub
+  commentId: F:Monambike.Core.Data.Monambike.GitHub
+  id: GitHub
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: GitHub
+  nameWithType: Monambike.GitHub
+  fullName: Monambike.Core.Data.Monambike.GitHub
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: GitHub
+    path: ../src/Data/Monambike.cs
+    startLine: 36
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link GitHub
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly GitHub As Link
+- uid: Monambike.Core.Data.Monambike.ItchIo
+  commentId: F:Monambike.Core.Data.Monambike.ItchIo
+  id: ItchIo
+  parent: Monambike.Core.Data.Monambike
+  langs:
+  - csharp
+  - vb
+  name: ItchIo
+  nameWithType: Monambike.ItchIo
+  fullName: Monambike.Core.Data.Monambike.ItchIo
+  type: Field
+  source:
+    remote:
+      path: src/Data/Monambike.cs
+      branch: main
+      repo: https://github.com/monambike/monambike-core.git
+    id: ItchIo
+    path: ../src/Data/Monambike.cs
+    startLine: 37
+  assemblies:
+  - Monambike.Core
+  namespace: Monambike.Core.Data
+  syntax:
+    content: public static readonly Link ItchIo
+    return:
+      type: Monambike.Core.Entities.Link
+    content.vb: Public Shared ReadOnly ItchIo As Link
+references:
+- uid: Monambike.Core.Data
+  commentId: N:Monambike.Core.Data
+  href: Monambike.html
+  name: Monambike.Core.Data
+  nameWithType: Monambike.Core.Data
+  fullName: Monambike.Core.Data
+  spec.csharp:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Data
+    name: Data
+    href: Monambike.Core.Data.html
+  spec.vb:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Data
+    name: Data
+    href: Monambike.Core.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Monambike.Core.Data.Monambike.Username*
+  commentId: Overload:Monambike.Core.Data.Monambike.Username
+  href: Monambike.Core.Data.Monambike.Username.html#Monambike_Core_Data_Monambike_Username
+  name: Username
+  nameWithType: Monambike.Username
+  fullName: Monambike.Core.Data.Monambike.Username
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Monambike.Core.Data.Monambike.FirstName*
+  commentId: Overload:Monambike.Core.Data.Monambike.FirstName
+  href: Monambike.Core.Data.Monambike.FirstName.html#Monambike_Core_Data_Monambike_FirstName
+  name: FirstName
+  nameWithType: Monambike.FirstName
+  fullName: Monambike.Core.Data.Monambike.FirstName
+- uid: Monambike.Core.Data.Monambike.SecondName*
+  commentId: Overload:Monambike.Core.Data.Monambike.SecondName
+  href: Monambike.Core.Data.Monambike.SecondName.html#Monambike_Core_Data_Monambike_SecondName
+  name: SecondName
+  nameWithType: Monambike.SecondName
+  fullName: Monambike.Core.Data.Monambike.SecondName
+- uid: Monambike.Core.Data.Monambike.Birthday*
+  commentId: Overload:Monambike.Core.Data.Monambike.Birthday
+  href: Monambike.Core.Data.Monambike.Birthday.html#Monambike_Core_Data_Monambike_Birthday
+  name: Birthday
+  nameWithType: Monambike.Birthday
+  fullName: Monambike.Core.Data.Monambike.Birthday
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Monambike.Core.Entities.Link
+  commentId: T:Monambike.Core.Entities.Link
+  parent: Monambike.Core.Entities
+  href: Monambike.Core.Entities.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: Monambike.Core.Entities.Link
+- uid: Monambike.Core.Entities
+  commentId: N:Monambike.Core.Entities
+  href: Monambike.html
+  name: Monambike.Core.Entities
+  nameWithType: Monambike.Core.Entities
+  fullName: Monambike.Core.Entities
+  spec.csharp:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Entities
+    name: Entities
+    href: Monambike.Core.Entities.html
+  spec.vb:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Entities
+    name: Entities
+    href: Monambike.Core.Entities.html
+memberLayout: SeparatePages

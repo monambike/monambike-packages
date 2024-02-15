@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monambike.Core.Entities
+  commentId: N:Monambike.Core.Entities
+  id: Monambike.Core.Entities
+  children:
+  - Monambike.Core.Entities.Link
+  langs:
+  - csharp
+  - vb
+  name: Monambike.Core.Entities
+  nameWithType: Monambike.Core.Entities
+  fullName: Monambike.Core.Entities
+  type: Namespace
+  assemblies:
+  - Monambike.Core
+references:
+- uid: Monambike.Core.Entities.Link
+  commentId: T:Monambike.Core.Entities.Link
+  parent: Monambike.Core.Entities
+  href: Monambike.Core.Entities.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: Monambike.Core.Entities.Link
+- uid: Monambike.Core.Entities
+  commentId: N:Monambike.Core.Entities
+  href: Monambike.html
+  name: Monambike.Core.Entities
+  nameWithType: Monambike.Core.Entities
+  fullName: Monambike.Core.Entities
+  spec.csharp:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Entities
+    name: Entities
+    href: Monambike.Core.Entities.html
+  spec.vb:
+  - uid: Monambike
+    name: Monambike
+    href: Monambike.html
+  - name: .
+  - uid: Monambike.Core
+    name: Core
+    href: Monambike.Core.html
+  - name: .
+  - uid: Monambike.Core.Entities
+    name: Entities
+    href: Monambike.Core.Entities.html
+memberLayout: SeparatePages
