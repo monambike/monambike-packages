@@ -12,7 +12,7 @@ namespace Monambike.Core.Data
 
         public static DateTime Birthday => new(2002, 11, 24);
 
-        // Personal Website
+        // Personal Website.
         public static readonly Link Website = new("https://monambike.com");
 
         // Instagram Accounts
