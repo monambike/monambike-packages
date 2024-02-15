@@ -1,7 +1,7 @@
-﻿using KWIJisho.Models.Apis;
+﻿using Monambike.Core.Data;
 using Newtonsoft.Json;
 
-namespace Monambike.Data
+namespace Monambike.Core.Models
 {
     public class GithubProjects
     {

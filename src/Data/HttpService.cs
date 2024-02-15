@@ -1,4 +1,4 @@
-﻿namespace KWIJisho.Models.Apis
+﻿namespace Monambike.Core.Data
 {
     /// <summary>
     /// A simple HTTP service for making GET requests and retrieving the response content.
