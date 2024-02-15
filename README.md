@@ -1,3 +1,3 @@
 # Monambike Core
 
-Centralized information repository designed for seamless integration across various projects and to ensure consistent data accessibility and management efficiency."
+Repository designed for seamless integration across various personal projects and to ensure consistent data accessibility and efficiency.
