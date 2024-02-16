@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/monambike/monambike-data</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/monambike/monambike-core</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
