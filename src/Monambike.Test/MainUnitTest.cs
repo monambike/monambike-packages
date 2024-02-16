@@ -4,10 +4,10 @@ using System.Diagnostics;
 namespace Monambike.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class MainUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Main()
         {
             Debug.WriteLine(Links.WebsiteLearn);
         }
