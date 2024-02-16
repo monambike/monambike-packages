@@ -4,7 +4,8 @@ namespace Monambike.Core.Data
 {
     public static class Monambike
     {
-        public static string Username => "@monambike";
+        public static string Username => "Monambike";
+        public static string SocialUsername => "@monambike";
 
         public static string FirstName => "Vinícius Gabriel";
 
