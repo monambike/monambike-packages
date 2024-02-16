@@ -10,11 +10,11 @@ namespace Monambike.Core.Models
         /// </summary>
         readonly static HttpClient HttpClient = new() { BaseAddress = new Uri("https://api.github.com/repos/") };
 
-        internal static async Task<GithubResponse> Get()
-        {
-            var response = await HttpService.GetAsync(HttpClient, $"monambike");
-            return JsonConvert.DeserializeObject<GithubResponse>(response);
-        }
+        //internal static async Task<GithubResponse> Get()
+        //{
+        //    var response = await HttpService.GetAsync(HttpClient, $"monambike");
+        //    return JsonConvert.DeserializeObject<GithubResponse>(response);
+        //}
 
         internal class GithubResponse
         {

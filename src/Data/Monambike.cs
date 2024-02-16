@@ -1,41 +1,33 @@
-﻿using Monambike.Core.Entities;
-
-namespace Monambike.Core.Data
+﻿namespace Monambike.Core.Data
 {
+    /// <summary>
+    /// Class that provides basic information about Monambike.
+    /// </summary>
     public static class Monambike
     {
+        /// <summary>
+        /// Monambike's username.
+        /// </summary>
         public static string Username => "Monambike";
-        public static string SocialUsername => "@monambike";
 
+        /// <summary>
+        /// Monambike's social media username.
+        /// </summary>
+        public static string SocialMediaUsername => "@monambike";
+
+        /// <summary>
+        /// Monambike's first name.
+        /// </summary>
         public static string FirstName => "Vinícius Gabriel";
 
+        /// <summary>
+        /// Monambike's second name.
+        /// </summary>
         public static string SecondName => "Marques de Melo";
 
+        /// <summary>
+        /// Monambike's birthday.
+        /// </summary>
         public static DateTime Birthday => new(2002, 11, 24);
-
-        // Personal Website.
-        public static readonly Link Website = new("https://monambike.com");
-
-        // Instagram Accounts
-        public static readonly Link InstagramMonambike = new("https://www.instagram.com/monambike");
-        public static readonly Link InstagramMonambikePortfolio = new("https://www.instagram.com/monambike_portfolio");
-
-        // Spotify Account
-        public static readonly Link Spotify = new("https://open.spotify.com/user/21jrwvbuag67jrte2nzmplhsy");
-
-        // Steam Account
-        public static readonly Link Steam = new("https://steamcommunity.com/id/monambike");
-
-        // YouTube Account
-        public static readonly Link YouTubeMonambike = new("https://www.youtube.com/@monambike");
-        public static readonly Link YouTubeMonambikePortfolio = new("https://www.youtube.com/@monambike_portfolio");
-        public static readonly Link YouTubeMonambikeLive = new("https://www.youtube.com/@monambike_lives");
-
-        // Linkedin Account
-        public static readonly Link LinkedIn = new("https://www.linkedin.com/in/monambike/");
-
-        // Code Deploy Account
-        public static readonly Link GitHub = new("https://github.com/monambike");
-        public static readonly Link ItchIo = new("https://monambike.itch.io/");
     }
 }
