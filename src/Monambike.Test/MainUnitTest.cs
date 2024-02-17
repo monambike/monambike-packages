@@ -1,6 +1,3 @@
-using Monambike.Core.Data;
-using System.Diagnostics;
-
 namespace Monambike.Test
 {
     [TestClass]
@@ -9,7 +6,7 @@ namespace Monambike.Test
         [TestMethod]
         public void Main()
         {
-            Debug.WriteLine(Links.WebsiteLearn);
+            var test = Core.Models.Github.GetGithubRepositories();
         }
     }
 }
