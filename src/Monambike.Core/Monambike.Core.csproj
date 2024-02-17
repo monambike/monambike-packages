@@ -7,7 +7,12 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/monambike/monambike-core</PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
+    <ApplicationIcon>Resources\256x256-icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\256x256-icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
