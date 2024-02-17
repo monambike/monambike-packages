@@ -8,23 +8,23 @@ namespace Monambike.Core.Data
     public class Links
     {
         /// <summary>
-        /// Personal Website. 
+        /// Represents a link for my Personal Website. 
         /// </summary>
         public static Link Website => new("monambike.com");
 
         /// <summary>
-        /// Blog Website.
+        /// Represents a link for my Blog Website.
         /// </summary>
         public static Link WebsiteBlog => new("blog.monambike.com");
 
         /// <summary>
-        /// Learn Website.
+        /// Represents a link for my Learn Website.
         /// </summary>
         public static Link WebsiteLearn => new("learn.monambike.com");
 
         // Instagram Accounts
         /// <summary>
-        /// Main Instagram account. (@monambike)
+        /// Represents a link for my Instagram main account. (@monambike)
         /// </summary>
         public static Link InstagramMonambike => new("instagram.com/monambike");
 
@@ -34,42 +34,42 @@ namespace Monambike.Core.Data
         public static Link InstagramMonambikePortfolio => new("instagram.com/monambike_portfolio");
 
         /// <summary>
-        /// Spotify account.
+        /// Represents a link for my Spotify account.
         /// </summary>
         public static Link Spotify => new("open.spotify.com/user/21jrwvbuag67jrte2nzmplhsy");
 
         /// <summary>
-        /// Steam account.
+        /// Represents a link for my Steam account.
         /// </summary>
         public static Link Steam => new("steamcommunity.com/id/monambike");
 
         /// <summary>
-        /// Main YouTube account
+        /// Represents a link for my YouTube main account
         /// </summary>
         public static Link YouTubeMonambike => new("youtube.com/@monambike");
 
         /// <summary>
-        /// Portfolio YouTube account.
+        /// Represents a link for my YouTube portfolio account.
         /// </summary>
         public static Link YouTubeMonambikePortfolio => new("youtube.com/@monambike_portfolio");
 
         /// <summary>
-        /// Live YouTube account.
+        /// Represents a link for my YouTube live account.
         /// </summary>
         public static Link YouTubeMonambikeLive => new("youtube.com/@monambike_lives");
 
         /// <summary>
-        /// Linkedin account.
+        /// Represents a link for my Linkedin account.
         /// </summary>
         public static Link LinkedIn => new("linkedin.com/in/monambike");
 
         /// <summary>
-        /// GitHub account.
+        /// Represents a link for my GitHub account.
         /// </summary>
         public static Link GitHub => new("github.com/monambike");
 
         /// <summary>
-        /// Itch.Io account.
+        /// Represents a link for my Itch.Io account.
         /// </summary>
         public static Link ItchIo => new("monambike.itch.io/");
     }
