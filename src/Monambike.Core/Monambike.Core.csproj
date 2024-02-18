@@ -18,12 +18,13 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <PackageReleaseNotes>- GitHub API fetch support
 - Improve Monambike data</PackageReleaseNotes>
-    <FileVersion>1.1.0.0</FileVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
     <Title>Monambike Core</Title>
     <Description>A personal package made for Monambike.
 Social: @monambike | Webiste: https://monambike.com</Description>
     <PackageIcon>256x256-icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -63,5 +64,9 @@ Social: @monambike | Webiste: https://monambike.com</Description>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="gitversion /output buildserver" />
+  </Target>
 
 </Project>
