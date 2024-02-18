@@ -12,7 +12,7 @@ namespace Monambike.Core.Models
         /// <summary>
         /// Gets the HTTP service instance for making requests to third-party API.
         /// </summary>
-        private static HttpService TestHttpService => new("https://raw.githubusercontent.com/ozh/github-colors/master/");
+        private static HttpService HttpService => new("https://raw.githubusercontent.com/ozh/github-colors/master/");
 
         /// <summary>
         /// Asynchronously retrieves language colors like from GitHub.
@@ -21,7 +21,7 @@ namespace Monambike.Core.Models
         internal static async Task<List<LanguageColor>> GetLanguageColors()
         {
             // Retrieve JSON data containing language colors from GitHub.
-            var jsonColors = await TestHttpService.GetAsync<Dictionary<string, JsonColor>>("colors.json");
+            var jsonColors = await HttpService.GetAsync<Dictionary<string, JsonColor>>("colors.json");
 
             // Throw ArgumentNullException if the retrieved JSON colors are null.
             ArgumentNullException.ThrowIfNull(jsonColors);

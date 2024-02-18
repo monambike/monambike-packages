@@ -1,4 +1,4 @@
-﻿using Monambike.Core.Data;
+﻿using Monambike.Core.Config;
 using Monambike.Core.Entities;
 using Octokit;
 
@@ -17,7 +17,7 @@ namespace Monambike.Core.Models
         /// <summary>
         /// Gets the GitHub client instance for making API requests.
         /// </summary>
-        private static GitHubClient GitHub => new(ProductHeaderValue) { Credentials = new Credentials(Config.GitHubToken) };
+        private static GitHubClient GitHub => new(ProductHeaderValue) { Credentials = new Credentials(PackageConfig.GitHubToken) };
 
         /// <summary>
         /// Asynchronously retrieves a list of repositories for the current user.

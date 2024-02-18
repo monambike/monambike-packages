@@ -23,7 +23,7 @@ namespace Monambike.Core.Services
         /// <param name="httpClient">The HttpClient instance to use for the request.</param>
         /// <param name="strRequest">The URI of the resource to request.</param>
         /// <returns>A Task representing the asynchronous operation. The result contains the response content as a string.</returns>
-        public async Task<T?> GetAsync<T>(string strRequest)
+        public async Task<T> GetAsync<T>(string strRequest)
         {
             // Tries to make the request with the base address and the request
             // for URI validation.
@@ -37,6 +37,9 @@ namespace Monambike.Core.Services
 
             // Deserializing object into the provided class.
             var deserializedObject = JsonConvert.DeserializeObject<T>(content);
+
+            // Throws an exception if deserialized object is null.
+            ArgumentNullException.ThrowIfNull(deserializedObject);
 
             // Returning deserialized object content response into the provided class.
             return deserializedObject;

@@ -1,9 +1,9 @@
-﻿namespace Monambike.Core.Data
+﻿namespace Monambike.Core.Config
 {
     /// <summary>
     /// Provides access to configuration settings.
     /// </summary>
-    internal static class Config
+    internal static class PackageConfig
     {
         /// <summary>
         /// Gets the GitHub token from the environment variables.
