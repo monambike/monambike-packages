@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/monambike/monambike-core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/monambike/monambike-core</RepositoryUrl>
     <ApplicationIcon>Resources\256x256-icon.ico</ApplicationIcon>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
@@ -13,6 +13,13 @@
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright ©  2024-2024</Copyright>
+    <PackageTags>monambike;github;certificate;social-media;links</PackageTags>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <PackageReleaseNotes>- GitHub API fetch support
+- Improve Monambike data</PackageReleaseNotes>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Title>Monambike Core</Title>
   </PropertyGroup>
 
   <ItemGroup>
