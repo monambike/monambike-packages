@@ -20,6 +20,8 @@
 - Improve Monambike data</PackageReleaseNotes>
     <FileVersion>1.1.0.0</FileVersion>
     <Title>Monambike Core</Title>
+    <Description>A personal package made for Monambike.
+Social: @monambike | Webiste: https://monambike.com</Description>
   </PropertyGroup>
 
   <ItemGroup>
