@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/monambike/monambike-core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/monambike/monambike-core</RepositoryUrl>
-    <ApplicationIcon>Resources\256x256-icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Images\256x256-icon.ico</ApplicationIcon>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
@@ -22,10 +22,23 @@
     <Title>Monambike Core</Title>
     <Description>A personal package made for Monambike.
 Social: @monambike | Webiste: https://monambike.com</Description>
+    <PackageIcon>256x256-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Resources\256x256-icon.ico" />
+    <None Remove="Resources\Images\256x256-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="Resources\Images\256x256-icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </CodeAnalysisDictionary>
+    <Content Include="Resources\Images\256x256-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -34,11 +47,18 @@ Social: @monambike | Webiste: https://monambike.com</Description>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Images\" />
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\LICENSE">
+    <None Update="Resources\Images\256x256-icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
