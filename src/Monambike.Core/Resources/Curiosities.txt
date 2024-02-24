@@ -1,0 +1,6 @@
+﻿Você sabia que a página de login foi inspirada na página de entrada do "Project Hanabi"? :)
+KWiJisho stands for "Kawaii" (cute) and "Jisho" (dictionary) in japanese!
+"Monambike" foi originado de um nome de bicicleta
+Project Hanabi foi o primeiro grande projeto solo que eu fiz!
+KWiJisho foi o primeiro projeto a ter uma documentação de API!
+Project Hanabi teve como ideia inicial ter suporte ao português, inglês, espanhol e japonês.

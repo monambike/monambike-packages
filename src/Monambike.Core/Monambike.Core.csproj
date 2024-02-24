@@ -28,16 +28,24 @@ Social: @monambike | Webiste: https://monambike.com</Description>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Curiosities.txt" />
     <None Remove="Resources\Images\256x256-icon.png" />
+    <None Remove="Resources\Phrases.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <CodeAnalysisDictionary Include="Resources\Images\256x256-icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </CodeAnalysisDictionary>
+    <AdditionalFiles Include="Resources\Curiosities.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
     <Content Include="Resources\Images\256x256-icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Phrases.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
