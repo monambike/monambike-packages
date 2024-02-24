@@ -16,11 +16,8 @@
     <Copyright>Copyright ©  2024-2024</Copyright>
     <PackageTags>monambike;github;certificate;social-media;links</PackageTags>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <PackageReleaseNotes>- Added patreon link
-- Created email support and added a new e-mail entry
-- Added age
-- Added curiosities and phrases
-- Made minimal improvements</PackageReleaseNotes>
+    <PackageReleaseNotes>- GitHub API fetch support
+- Improve Monambike data</PackageReleaseNotes>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Title>Monambike Core</Title>
     <Description>A personal package made for Monambike.
