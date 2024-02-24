@@ -15,7 +15,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Copyright>Copyright ©  2024-2024</Copyright>
     <PackageTags>monambike;github;certificate;social-media;links</PackageTags>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <PackageReleaseNotes>- GitHub API fetch support
 - Improve Monambike data</PackageReleaseNotes>
     <FileVersion>$(AssemblyVersion)</FileVersion>
