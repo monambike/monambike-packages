@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides extension methods for DateTime class.
     /// </summary>
-    internal class DateTimeExtension
+    public class DateTimeExtension
     {
 
         /// <summary>
