@@ -6,16 +6,6 @@
     public static class Monambike
     {
         /// <summary>
-        /// Monambike's username.
-        /// </summary>
-        public static string Username => "Monambike";
-
-        /// <summary>
-        /// Monambike's social media username.
-        /// </summary>
-        public static string SocialMediaUsername => "@monambike";
-
-        /// <summary>
         /// Monambike's first name.
         /// </summary>
         public static string FirstName => "Vinícius Gabriel";
@@ -24,6 +14,16 @@
         /// Monambike's second name.
         /// </summary>
         public static string SecondName => "Marques de Melo";
+
+        /// <summary>
+        /// Monambike's username.
+        /// </summary>
+        public static string Username => "Monambike";
+
+        /// <summary>
+        /// Monambike's social media username. (with an '@' symbol behind).
+        /// </summary>
+        public static string SocialMediaUsername => $"@{Username.ToLower()}";
 
         /// <summary>
         /// Monambike's birthday.
