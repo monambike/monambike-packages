@@ -10,6 +10,6 @@ namespace Monambike.Core.Data
         /// <summary>
         /// The contact email for monambike domain.
         /// </summary>
-        public static Email MonambikeContact = new("contact@monambike.com");
+        public static Email MonambikeContact => new("contact@monambike.com");
     }
 }
