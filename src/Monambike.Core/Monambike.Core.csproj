@@ -30,6 +30,14 @@ Social: @monambike | Webiste: https://monambike.com</Description>
     <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
   <ItemGroup>
     <None Remove="Resources\Curiosities.txt" />
     <None Remove="Resources\Images\256x256-icon.png" />
