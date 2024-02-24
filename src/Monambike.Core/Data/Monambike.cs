@@ -1,4 +1,6 @@
-﻿namespace Monambike.Core.Data
+﻿using Monambike.Core.Utils;
+
+namespace Monambike.Core.Data
 {
     /// <summary>
     /// Class that provides basic information about Monambike.
@@ -29,5 +31,10 @@
         /// Monambike's birthday.
         /// </summary>
         public static DateTime Birthday => new(2002, 11, 24);
+
+        /// <summary>
+        /// Monambike's age.
+        /// </summary>
+        public static int Age => DateTimeExtension.CalculateAge(Birthday);
     }
 }
