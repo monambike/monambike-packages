@@ -7,7 +7,7 @@ namespace Monambike.Core.Data
     /// </summary>
     public static class Links
     {
-        private static readonly string monambike = Monambike.Username.ToLower();
+        private static readonly string monambike = BasicInfo.Username.ToLower();
 
         /// <summary>
         /// Represents a link for my Personal Website. 

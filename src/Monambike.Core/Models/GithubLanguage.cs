@@ -44,35 +44,35 @@ namespace Monambike.Core.Models
         /// <summary>
         /// Represents the JSON structure for language colors retrieved from GitHub.
         /// </summary>
-        public class JsonColor
+        internal class JsonColor
         {
             /// <summary>
             /// Gets or initializes the hexadecimal color code.
             /// </summary>
 
             [JsonProperty("color")]
-            public required string Color { get; init; }
+            internal required string Color { get; init; }
         }
 
         /// <summary>
         /// Represents a programming language with its corresponding color.
         /// </summary>
-        public class LanguageColor
+        internal class LanguageColor
         {
             /// <summary>
             /// Gets or initializes the name of the programming language.
             /// </summary>
-            public required string Name { get; init; }
+            internal required string Name { get; init; }
 
             /// <summary>
             /// Gets or initializes the hexadecimal color code.
             /// </summary>
-            public required string HexColor { get; init; }
+            internal required string HexColor { get; init; }
 
             /// <summary>
             /// Gets the RGB color equivalent of the hexadecimal color code.
             /// </summary>
-            public Color RgbColor =>  ColorTranslator.FromHtml(HexColor);
+            internal Color RgbColor =>  ColorTranslator.FromHtml(HexColor);
         }
     }
 }

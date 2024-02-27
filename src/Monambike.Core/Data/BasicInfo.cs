@@ -5,7 +5,7 @@ namespace Monambike.Core.Data
     /// <summary>
     /// Class that provides basic information about Monambike.
     /// </summary>
-    public static class Monambike
+    public static class BasicInfo
     {
         /// <summary>
         /// Monambike's first name.

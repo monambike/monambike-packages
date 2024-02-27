@@ -9,17 +9,17 @@
         /// <summary>
         /// Gets the email address.
         /// </summary>
-        public string EmailAddress => new($"{emailAddress}");
-        
+        public string Address => new($"{emailAddress}");
+
         /// <summary>
-        /// Gets the MailTo URL of the email address.
+        /// Gets the URL of the email address with the prefix "mailto:".
         /// </summary>
-        public string MailTo => new($"mailto:{EmailAddress}");
+        public string Link => new($"mailto:{Address}");
 
         /// <summary>
         /// Returns the email address as string.
         /// </summary>
         /// <returns>The email address as <see cref="string"/>.</returns>
-        public override string ToString() => EmailAddress.ToString();
+        public override string ToString() => Address.ToString();
     }
 }
