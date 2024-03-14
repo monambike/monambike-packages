@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/monambike/monambike-core</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/monambike/monambike-core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/monambike/monambike-packages</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/monambike/monambike-packages</RepositoryUrl>
     <ApplicationIcon>Resources\Images\256x256-icon.ico</ApplicationIcon>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <RepositoryType>git</RepositoryType>
@@ -22,7 +22,7 @@
 - Added curiosities and phrases
 - Made minimal improvements</PackageReleaseNotes>
     <FileVersion>$(AssemblyVersion)</FileVersion>
-    <Title>Monambike Core</Title>
+    <Title>Monambike Packages</Title>
     <Description>A personal package made for Monambike.
 Social: @monambike | Webiste: https://monambike.com</Description>
     <PackageIcon>256x256-icon.png</PackageIcon>

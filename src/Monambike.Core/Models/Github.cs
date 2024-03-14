@@ -12,7 +12,7 @@ namespace Monambike.Core.Models
         /// <summary>
         /// Gets the product header value for API requests.
         /// </summary>
-        private static ProductHeaderValue ProductHeaderValue => new("monambike-core");
+        private static ProductHeaderValue ProductHeaderValue => new("monambike-packages");
 
         /// <summary>
         /// Gets the GitHub client instance for making API requests.
