@@ -58,7 +58,7 @@ namespace Monambike.Core.Data
         /// <summary>
         /// Represents a link for my YouTube live account.
         /// </summary>
-        public static Link YouTubeMonambikeLive => new($"youtube.com/@{monambike}_lives");
+        public static Link YouTubeMonambikeLive => new($"youtube.com/@{monambike}_live");
 
         /// <summary>
         /// Represents a link for my Linkedin account.
@@ -84,5 +84,11 @@ namespace Monambike.Core.Data
         /// Represents a link for my Patreon.
         /// </summary>
         public static Link Patreon => new($"patreon.com/{monambike}");
+
+
+        /// <summary>
+        /// Represents a link for my Facebook account.
+        /// </summary>
+        public static Link Facebook => new($"facebook.com/{monambike}");
     }
 }

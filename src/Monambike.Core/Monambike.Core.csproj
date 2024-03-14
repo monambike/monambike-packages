@@ -15,9 +15,8 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Copyright>Copyright ©  2024-2024</Copyright>
     <PackageTags>monambike;github;certificate;social-media;links</PackageTags>
-    <AssemblyVersion>1.4.0.0</AssemblyVersion>
-    <PackageReleaseNotes>- Added GitHub repositories fetch support
-- Changed Monambike to BasicInfo</PackageReleaseNotes>
+    <AssemblyVersion>1.4.1.0</AssemblyVersion>
+    <PackageReleaseNotes>- Fix minimal errors</PackageReleaseNotes>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Title>Monambike Packages</Title>
     <Description>A personal package made for Monambike.

@@ -15,7 +15,10 @@ namespace Monambike.Core.Models
         /// </summary>
         private static ProductHeaderValue ProductHeaderValue => new("monambike-packages");
 
-        private static RepositoryRequest RepositoryRequest = new()
+        /// <summary>
+        /// Gets the repository request configuration for API requests.
+        /// </summary>
+        private static RepositoryRequest RepositoryRequest => new()
         {
             Visibility = RepositoryRequestVisibility.Public,
             Affiliation = RepositoryAffiliation.Owner,
