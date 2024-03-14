@@ -6,7 +6,7 @@ namespace Monambike.Test
         [TestMethod]
         public void Main()
         {
-            var test = Core.Models.Github.GetGithubRepositories();
+            var test = Core.Models.Github.GetPublicGithubRepositories();
         }
     }
 }

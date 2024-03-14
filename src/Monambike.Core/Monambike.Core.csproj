@@ -16,11 +16,8 @@
     <Copyright>Copyright ©  2024-2024</Copyright>
     <PackageTags>monambike;github;certificate;social-media;links</PackageTags>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
-    <PackageReleaseNotes>- Added patreon link
-- Created email support and added a new e-mail entry
-- Added age
-- Added curiosities and phrases
-- Made minimal improvements</PackageReleaseNotes>
+    <PackageReleaseNotes>- Added github repository search support
+- Changed Monambike to BasicInfo</PackageReleaseNotes>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Title>Monambike Packages</Title>
     <Description>A personal package made for Monambike.
@@ -83,9 +80,5 @@ Social: @monambike | Webiste: https://monambike.com</Description>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="gitversion /output buildserver" />
-  </Target>
 
 </Project>

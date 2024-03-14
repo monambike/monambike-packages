@@ -1,6 +1,7 @@
 ﻿using Monambike.Core.Config;
 using Monambike.Core.Entities;
 using Octokit;
+using Octokit.Internal;
 
 namespace Monambike.Core.Models
 {
@@ -14,21 +15,23 @@ namespace Monambike.Core.Models
         /// </summary>
         private static ProductHeaderValue ProductHeaderValue => new("monambike-packages");
 
+        private static RepositoryRequest RepositoryRequest = new()
+        {
+            Visibility = RepositoryRequestVisibility.Public,
+            Affiliation = RepositoryAffiliation.Owner,
+            Sort = RepositorySort.Updated,
+            Direction = SortDirection.Ascending
+        };
+
         /// <summary>
         /// Gets the GitHub client instance for making API requests.
         /// </summary>
         private static GitHubClient GitHub => new(ProductHeaderValue) { Credentials = new Credentials(PackageConfig.GitHubToken) };
 
-        /// <summary>
-        /// Asynchronously retrieves a list of repositories for the current user.
-        /// </summary>
-        /// <returns>A task representing the asynchronous operation, containing a list of repositories.</returns>
-        private static async Task<IReadOnlyList<Repository>> GetRepositories() => await GitHub.Repository.GetAllForCurrent();
-
-        public static List<GithubRepository> GetGithubRepositories()
+        public static List<GithubRepository> GetPublicGithubRepositories()
         {
-            // Fetch repositories from GitHub.
-            var repositories = GetRepositories().Result;
+            // Fetch public repositories from GitHub.
+            var repositories = GitHub.Repository.GetAllForCurrent(RepositoryRequest).Result;
 
             // Fetch language colors from GitHub by a third-party API.
             var languageColors = GithubLanguage.GetLanguageColors().Result;
